@@ -232,10 +232,14 @@ stub existed.
 ```bash
 uv sync
 uv run pytest      # the end-to-end tests run real import-linter
-uv run ruff check .
+uv run ruff check src tests
 uv run mypy src
 ```
 
+See [CONTRIBUTING.md](./CONTRIBUTING.md) for the ground rules,
+[SECURITY.md](./SECURITY.md) for the trust model, and
+[CHANGELOG.md](./CHANGELOG.md) for release notes.
+
 ## License
 
-MIT.
+[MIT](./LICENSE)
